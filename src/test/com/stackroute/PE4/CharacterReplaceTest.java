@@ -22,19 +22,19 @@ public class CharacterReplaceTest {
     @Test
     public void givenStringContainingdtIsCheckedForCharacterAndreplaceswithNewCharAndNewStringIsReturned()
     {
-        String result=obj.ReplaceCharacterinString("Java is a programming language");
+        String result=obj.replaceCharacterinString("Java is a programming language");
         assertEquals("Java ts a programmtng language",result);
     }
     //Test case for string not containing replacement characters
     @Test
     public void givenStringNotContainingTheReplacementCharactersIsCheckedAndReturnsTheOriginalString() {
-        String result = obj.ReplaceCharacterinString("Java language");
+        String result = obj.replaceCharacterinString("Java language");
         assertNotNull(result);
     }
     //Test case for null string
     @Test
-    public void givenNullStringIsCheckedForCharacterAndReturnsnull() {
-        String result = obj.ReplaceCharacterinString("");
+    public void givenNullStringIsCheckedForCharacterAndReturnsNull() {
+        String result = obj.replaceCharacterinString("");
         assertEquals(null, result);
     }
 }

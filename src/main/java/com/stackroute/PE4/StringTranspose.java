@@ -1,7 +1,7 @@
 package com.stackroute.PE4;
 
 public class StringTranspose {
-    public String ReverseofString(String original)
+    public String transposeofString(String original)
     {
         //Initialize two empty string
         String transpose="",reverse="";

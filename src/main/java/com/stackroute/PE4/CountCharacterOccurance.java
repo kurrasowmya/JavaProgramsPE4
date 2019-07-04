@@ -1,7 +1,7 @@
 package com.stackroute.PE4;
 
 public class CountCharacterOccurance {
-    public int OccuranceOfCharacter(String string,char charactertocheck)
+    public int occuranceOfCharacter(String string,char charactertocheck)
     {
         //Initialize and set count to zero
         int count=0;

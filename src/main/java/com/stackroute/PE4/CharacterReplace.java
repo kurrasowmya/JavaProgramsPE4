@@ -1,7 +1,7 @@
 package com.stackroute.PE4;
 
 public class CharacterReplace {
-    public String ReplaceCharacterinString(String string)
+    public String replaceCharacterinString(String string)
     {
         //Check whether string contains data
         if(string!="") {

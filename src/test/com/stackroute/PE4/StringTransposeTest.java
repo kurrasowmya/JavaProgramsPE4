@@ -22,27 +22,27 @@ public class StringTransposeTest {
     public void givenStringShouldBetransposedAndPrinttransposedString()
     {
         //Add
-        String result= obj.ReverseofString("Hi pooja");
+        String result= obj.transposeofString("Hi pooja");
         //Assert
         assertEquals("iH ajoop",result);
 
     }
     //Test case for para
     @Test
-    public void givenparaStringShouldBeTransposedAndPrintsTransposedString()
+    public void givenParaStringShouldBeTransposedAndPrintsTransposedString()
     {
         //Add
-        String result= obj.ReverseofString("Hi pooja this is swathi I am here to tell you the schedule for today");
+        String result= obj.transposeofString("Hi pooja this is swathi I am here to tell you the schedule for today");
         //Assert
         assertNotNull(result);
 
     }
     //Test case for null string
     @Test
-    public void givennullStringShouldBeCheckedAndPrintsnull()
+    public void givenNullStringShouldBeCheckedAndPrintsnull()
     {
         //Add
-        String result= obj.ReverseofString("");
+        String result= obj.transposeofString("");
         //Assert
         assertNotEquals("iH",result);
 

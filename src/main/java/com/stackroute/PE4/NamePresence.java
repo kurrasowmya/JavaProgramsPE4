@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class NamePresence {
-    public String UsematcherTocountStringOccurance(String input, String word) {
+    public String stringPresence(String input, String word) {
         // Create a pattern to be searched
         Pattern pattern = Pattern.compile(word);
 

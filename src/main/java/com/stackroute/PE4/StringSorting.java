@@ -3,7 +3,7 @@ package com.stackroute.PE4;
 import java.util.Arrays;
 
 public class StringSorting {
-    public String SortarrayWordsAlphabetically(String string)
+    public String sortArrayWordsAlphabetically(String string)
     {
         if(string!="") {
                     String[] result = string.split(" "); //splitting the given string by whitespace and storing into string array

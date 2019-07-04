@@ -22,28 +22,28 @@ public class NamePresenceTest {
     @Test
     public void givenStringIsCheckedforThenameAndIfNamePresentReturnsTrue()
     {
-        String result=obj.UsematcherTocountStringOccurance("This is Harry","Harry");
+        String result=obj.stringPresence("This is Harry","Harry");
         assertEquals("Is Harry here?true",result);
     }
     //Test case for false case
     @Test
     public void givenStringIsCheckedFornameAndNamenotpresentReturnfalse()
     {
-        String result=obj.UsematcherTocountStringOccurance("This is Henry","Harry");
+        String result=obj.stringPresence("This is Henry","Harry");
         assertEquals("Is Harry here?false",result);
     }
     //Test case for empty string
     @Test
     public void givenEmptyStringIsCheckedFornameAndNamenotpresentReturnfalse()
     {
-        String result=obj.UsematcherTocountStringOccurance("","Harry");
+        String result=obj.stringPresence("","Harry");
         assertNotEquals("Is Harry here?false",result);
     }
     //Test case for notnull assert
     @Test
     public void givenStringIsCheckednotnullContainingnameAndNamenotpresentReturnfalse()
     {
-        String result=obj.UsematcherTocountStringOccurance("This is Harry","Harry");
+        String result=obj.stringPresence("This is Harry","Harry");
         assertNotNull(result);
     }
 

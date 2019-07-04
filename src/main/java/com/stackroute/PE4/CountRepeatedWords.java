@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CountRepeatedWords {
-    public String UsematcherTocountStringOccurance(String input, String word) {
+    public String useMatcherTocountStringOccurance(String input, String word) {
         String result = "";
         if(input!=""&&word!="") {
             // Create a pattern to be searched

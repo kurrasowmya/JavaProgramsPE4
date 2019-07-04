@@ -22,7 +22,7 @@ public class StringSortingTest {
     public void givenStringShouldBeSortedAlphabeticallyAndPrintSortedString()
     {
         //Add
-        String result= obj.SortarrayWordsAlphabetically("Asha went to bahar");
+        String result= obj.sortArrayWordsAlphabetically("Asha went to bahar");
         //Assert
         assertEquals("Asha bahar to went",result);
 
@@ -32,7 +32,7 @@ public class StringSortingTest {
     public void givenStringInUppercaseShouldBeSortedAndPrintsSortedString()
     {
         //Add
-        String result= obj.SortarrayWordsAlphabetically("A D C B");
+        String result= obj.sortArrayWordsAlphabetically("A D C B");
         //Assert
         assertEquals("A B C D",result);
 
@@ -42,7 +42,7 @@ public class StringSortingTest {
     public void givennullStringShouldBeTakenAndPrintsnull()
     {
         //Add
-        String result= obj.SortarrayWordsAlphabetically("");
+        String result= obj.sortArrayWordsAlphabetically("");
         //Assert
         assertNotEquals("A B",result);
 

@@ -21,28 +21,28 @@ public class CountRepeatedWordsTest {
     @Test
     public void givenStringIsCheckedForsubstringAndOccuranceOfThatSubStringindexIsReturned()
     {
-        String result=obj.UsematcherTocountStringOccurance("Java is a programming language","la");
+        String result=obj.useMatcherTocountStringOccurance("Java is a programming language","la");
         assertEquals("Found at 22-24",result);
     }
     //Test case for having multiple occurance
     @Test
     public void givenStringIsCheckedForSubStringHavingMultipleOccuranceAndOccuranceOfThatSubStringIsReturned()
     {
-        String result=obj.UsematcherTocountStringOccurance("She sells seashells by the seashore","se");
+        String result=obj.useMatcherTocountStringOccurance("She sells seashells by the seashore","se");
         assertEquals("Found at 4-6Found at 10-12Found at 27-29",result);
     }
     //Test case for not having the word
     @Test
     public void givenStringIsCheckedForsubstringThatIsAbsentAndOccuranceIsReturned()
     {
-        String result=obj.UsematcherTocountStringOccurance("She sells seashells by the seashore","hi");
+        String result=obj.useMatcherTocountStringOccurance("She sells seashells by the seashore","hi");
         assertNotEquals("Found at",result);
     }
     //Test case for null string
     @Test
     public void givenNullStringIsCheckedForSubStringAndNullIsReturned()
     {
-        String result=obj.UsematcherTocountStringOccurance("","se");
+        String result=obj.useMatcherTocountStringOccurance("","se");
         assertEquals(null,result);
     }
 
